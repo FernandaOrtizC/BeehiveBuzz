@@ -1,0 +1,99 @@
+/*  
+Selector{
+    propiedad:valor; 
+
+}
+*/
+
+body{
+    /*Color de fondp*/
+    background-color: #FEE140;
+background-image: linear-gradient(0deg, #FEE140 0%, #eee3e5 100%);
+
+     /*Cambio de tipografía*/
+     font-family: 'Sulphur Point', sans-serif;  
+
+}
+
+img{
+    /* Cambiar tamaño de imagenes width: ancho, heigth:altura */
+    width: 10%; 
+    /* Posiciona la imagen a la izquierda del título */
+
+    float: right;
+    margin-right: 10px;
+}
+
+
+    
+
+
+p{
+    /*color de texto*/
+    color: darkslategray;
+    font-size: 20px;
+}
+
+
+
+.titulo{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 75px;
+    text-align: center;
+    
+    
+    
+
+
+
+
+    
+}
+
+/*Div flexible para moverse con los elementos dentro de si */
+.menu{
+    display: flex; /* Aplica el estilo de flexbox */
+  justify-content: space-around;
+  font-size: 18px;
+
+}
+.menu_uno{
+    display: flex; /* Aplica el estilo de flexbox */
+  justify-content: space-around;
+  font-size: 25px;
+}
+a{
+    color:rgb(145, 16, 16);
+    text-decoration: none;
+    
+
+}
+
+.contenedor-titulo-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Cuerpo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Cuerpo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ajusta el tamaño del contenedor si es necesario */
+    width: 400px;
+    height: 300px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+
+}
